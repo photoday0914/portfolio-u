@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+        <!-- Todo: put here your site title -->
+        <title>Phillip Grandinetti | Developer</title>
+        <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+        <meta name="keywords" content="Jason Li, skill" />
+        <!-- Todo: improve your SEO by adding a small description of you -->
+        <meta name="description" content="Jason Li | Developer" />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="styles.scss" />
+        <link href="css/skillbar.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <script
+            defer
+            src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+        ></script>
+        <!-- Todo: remove the below script once you finish your portfolio -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+    </head>
+
+    <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+
+    <body>
+        <div id="top">
+            <header>
+                <div id="mobile-menu-close">
+                    <span>Close</span>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+                <ul id="menu" class="shadow">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#experiences">Experience</a>
+                    </li>
+                    <!-- <li>
+                <a href="#education">Education</a>
+            </li> -->
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </header>
+        </div>
+
+        <!-- **** Hero Section **** -->
+        <section id="hero" class="jumbotron">
+            <div class="container">
+                <h1
+                    class="hero-title load-hidden"
+                    style="color: rgb(255, 255, 255)"
+                >
+                    Hi, I am
+                    <span class="text-color-main">Phillip Grandinetti.</span>
+                    <br />
+                    <span class="text-color-main">Software Engineer</span>
+                </h1>
+                <p class="hero-cta load-hidden">
+                    <a
+                        rel="noreferrer"
+                        class="cta-btn cta-btn--hero"
+                        href="#about"
+                        >Know more</a
+                    >
+                </p>
+            </div>
+        </section>
+        <!-- /END Hero Section -->
+
+        <!-- **** About Section **** -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title load-hidden">About me</h2>
+                <div class="row about-wrapper">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__image load-hidden">
+                            <img
+                                alt="Profile Image"
+                                class="img-fluid rounded shadow-lg"
+                                height="auto"
+                                width="300px"
+                                src="assets/profile.png"
+                                alt="Profile Image"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="about-wrapper__info load-hidden">
+                            <p class="about-wrapper__info-text">
+                                I have 9 years of web developing experience for
+                                multiple domains including business, healthcare,
+                                e-commerce, etc and have 4 years of blockchain
+                                developing experience for dapps, NFT and Web3
+                                projects. I am skilled at javascript framework
+                                such as react.js, vue.js and node.js, and fluent
+                                in solidity, hardhat, web3.js and ether.js. I
+                                also have much experience with C/C++ and python
+                                programming.
+                            </p>
+                            <p class="about-wrapper__info-text">
+                                I like football and enjoy playing piano.
+                            </p>
+                            <span class="d-flex mt-3">
+                                <a
+                                    rel="noreferrer"
+                                    target="_blank"
+                                    class="cta-btn cta-btn--resume"
+                                    href="assets/resume.pdf"
+                                >
+                                    View Resume
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /END About Section -->
+
+        <section>
+            <div id="skills">
+                <!-- <h2 class="heading">Skills</h2> -->
+                <div class="skills-text about-wrapper__info load-hidden">
+                    <h2 class="section-title load-hidden">SKILLS</h2>
+                    <dl class="skills-list">
+                        <dt class="skill-name">Solidity</dt>
+                        <dd
+                            class="skill-percent skill-percent-solidity"
+                            data-percent="85%"
+                        ></dd>
+                        <dt class="skill-name">React.js</dt>
+                        <dd
+                            class="skill-percent skill-percent-reactjs"
+                            data-percent="90%"
+                        ></dd>
+                        <dt class="skill-name">Vue.js</dt>
+                        <dd
+                            class="skill-percent skill-percent-vuejs"
+                            data-percent="90%"
+                        ></dd>
+                        <dt class="skill-name">Node.js</dt>
+                        <dd
+                            class="skill-percent skill-percent-nodejs"
+                            data-percent="90%"
+                        ></dd>
+                        <dt class="skill-name">C/C++</dt>
+                        <dd
+                            class="skill-percent skill-percent-ccplus"
+                            data-percent="90%"
+                        ></dd>
+                        <dt class="skill-name">Javascript</dt>
+                        <dd
+                            class="skill-percent skill-percent-javascript"
+                            data-percent="90%"
+                        ></dd>
+                        <dt class="skill-name">CI/CD</dt>
+                        <dd
+                            class="skill-percent skill-percent-ccplus"
+                            data-percent="80%"
+                        ></dd>
+                        <dt class="skill-name">Python</dt>
+                        <dd
+                            class="skill-percent skill-percent-python"
+                            data-percent="80%"
+                        ></dd>
+                        <dt class="skill-name">HTML/CSS</dt>
+                        <dd
+                            class="skill-percent skill-percent-htmlcss"
+                            data-percent="80%"
+                        ></dd>
+                        <dt class="skill-name">PHP</dt>
+                        <dd
+                            class="skill-percent skill-percent-php"
+                            data-percent="75%"
+                        ></dd>
+                        <dt class="skill-name">GITHUB</dt>
+                        <dd
+                            class="skill-percent skill-percent-github"
+                            data-percent="80%"
+                        ></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <!-- End #skills -->
+        <!-- <section id="education">
+            <div id="education" class="background-alt">
+                <h2 class="section-title heading">Education</h2>
+            </div>
+        </section> -->
+        <section id="experiences">
+            <div id="experience" class="background-alt">
+                <h2 class="section-title heading">Experience</h2>
+                <div
+                    id="experience-timeline"
+                    class="project-wrapper__text load-hidden"
+                >
+                    <div data-date="May 2013 – October 2015">
+                        <h3>Modea</h3>
+                        <h4>Junior Web Developer</h4>
+                        <p>
+                            Developed healthcare web application frontends using
+                            React.js, Redux and Vue.js.
+                        </p>
+                    </div>
+
+                    <div data-date="October 2015 – July 2018">
+                        <h3>Kortek Solutions</h3>
+                        <h4>Full Stack Developer</h4>
+                        <p>
+                            Kortek Solutions provides small and medium-sized
+                            business with a range of services and solutions. I
+                            have developed several projects using React.js,
+                            Vue.js and Node.js as business service.
+                        </p>
+                    </div>
+
+                    <div data-date="July 2018 – February 2020">
+                        <h3>SoluLab</h3>
+                        <h4>Blockchain Developer</h4>
+                        <p>
+                            Developed smart contracts with Solidity using Remix
+                            and Hardhat to deploy on several blockchain
+                            networks. Created and deploy ERC20, ERC721 tokens to
+                            blockchain networks.
+                        </p>
+                    </div>
+
+                    <div data-date="February 2020 – July 2022">
+                        <h3>Chainalysis</h3>
+                        <h4>Full Stack Developer</h4>
+                        <p>
+                            Built frontend and backend for Web3 projects based
+                            on ethereum network using React.js, Redux, Vue.js,
+                            Web3.js and Ether.js according to requirements and
+                            development guidelines
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End #experience -->
+
+        <!-- **** Projects Section **** -->
+        <section id="projects">
+            <div class="container">
+                <div class="project-wrapper">
+                    <h2 class="section-title dark-blue-text">Projects</h2>
+
+                    <!-- Notice: each .row is a project -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">
+                                    DXDY
+                                </h3>
+                                <div>
+                                    <p class="mb-4">
+                                        dYdX (DYDX) is a decentralized exchange
+                                        platform for cryptocurrency margin
+                                        trading for assets like BTC, ETH, SOL,
+                                        DOT, and more. It allows you to make
+                                        predictions about the future price of
+                                        cryptocurrencies. Typically, these
+                                        features are only available in
+                                        centralized exchanges, such as Coinbase
+                                        Global Inc. (NASDAQ: COIN). dYdX differs
+                                        in that it allows for the
+                                        decentralization of margin.
+                                    </p>
+                                </div>
+                                <label class="cta-btn cta-btn--hero">
+                                    Next.js
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    ether.js
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    Solidity
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <!-- <a rel="noreferrer" href="#!" target="_blank"> -->
+                                <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt"
+                                >
+                                    <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/DXDY.png"
+                                    />
+                                </div>
+                                <!-- </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Notice: each .row is a project -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">
+                                    Clear Score
+                                </h3>
+                                <div>
+                                    <p class="mb-4">
+                                        ClearScore is a British financial
+                                        technology business founded in July
+                                        2015, by Justin Basini, Nigel Morris and
+                                        Dan Cobley. It was the first company in
+                                        the United Kingdom to provide free
+                                        credit scores and reports, along with
+                                        advice to help consumers make better
+                                        financial decisions.
+                                    </p>
+                                </div>
+                                <label class="cta-btn cta-btn--hero">
+                                    React.js
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    Redux
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    Node.js
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <!-- <a rel="noreferrer" href="#!" target="_blank"> -->
+                                <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt"
+                                >
+                                    <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/ClearScore1.png"
+                                    />
+                                </div>
+                                <!-- </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+
+                    <!-- Notice: each .row is a project -->
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">
+                                    The Doge Pound
+                                </h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Doge Pound Studios is a gaming studio
+                                        established by the teams behind The Doge
+                                        Pound and Deez NFT. With a strong
+                                        background in developing mobile games
+                                        with over 300Mn game downloads, the
+                                        studio focuses on developing
+                                        Play-to-Earn (P2E) games and Metaverse
+                                        initiatives.
+                                    </p>
+                                </div>
+                                <label class="cta-btn cta-btn--hero">
+                                    React.js
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    Solidity
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    ether.js
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <!-- <a rel="noreferrer" href="#!" target="_blank"> -->
+                                <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt"
+                                >
+                                    <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/the dodge pound.png"
+                                    />
+                                </div>
+                                <!-- </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">
+                                    Tourist
+                                </h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Inspiration, opportunities and travel
+                                        insurance to help you fuel your
+                                        curiosity, find your journey and travel
+                                        bravely. We are World Nomads like you,
+                                        travel is in our blood and exploring is
+                                        our way of life. Our mission is to help
+                                        you get the most out of your adventures
+                                        and support you when things go wrong.
+                                    </p>
+                                </div>
+                                <label class="cta-btn cta-btn--hero">
+                                    React.js
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    Redux
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    Node.js
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <!-- <a rel="noreferrer" href="#!" target="_blank"> -->
+                                <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt"
+                                >
+                                    <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/Tourist.png"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12">
+                            <div class="project-wrapper__text load-hidden">
+                                <h3 class="project-wrapper__text-title">
+                                    Food Delivery
+                                </h3>
+                                <div>
+                                    <p class="mb-4">
+                                        Here at the Scratch Bakery, quality
+                                        means everything to us. Food, coffee,
+                                        atmosphere, customer service - we strive
+                                        to provide an experience for you that
+                                        will exceed your expectations. We did a
+                                        complete renovation and expansion to our
+                                        space to help improve the quality of
+                                        overall experience for both our
+                                        customers and our staff.
+                                    </p>
+                                </div>
+                                <label class="cta-btn cta-btn--hero">
+                                    Laravel
+                                </label>
+                                <label class="cta-btn cta-btn--hero">
+                                    Bootstrap
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-sm-12">
+                            <div class="project-wrapper__image load-hidden">
+                                <!-- <a rel="noreferrer" href="#!" target="_blank"> -->
+                                <div
+                                    data-tilt
+                                    data-tilt-max="4"
+                                    data-tilt-glare="true"
+                                    data-tilt-max-glare="0.5"
+                                    class="thumbnail rounded js-tilt"
+                                >
+                                    <img
+                                        alt="Project Image"
+                                        class="img-fluid"
+                                        src="assets/food delivery.png"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /END Project -->
+                </div>
+            </div>
+        </section>
+        <!-- /END Projects Section -->
+
+        <!-- **** Contact Section **** -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Infomation</h2>
+                <div
+                    class="contact-wrapper load-hidden"
+                    style="text-align: left; margin-left: 30%"
+                >
+                    <p>phone number: +1 (805) 214-8119</p>
+                    <p>email: phillipgrandi89@gmail.com</p>
+                    <p>
+                        address: 1132 Granada Street Fort Pierce, FL, United
+                        States
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- /END Contact Section -->
+
+        <!-- **** Footer Section **** -->
+        <footer class="footer navbar-static-bottom">
+            <div class="container">
+                <a rel="noreferrer" href="#top" class="back-to-top">
+                    <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+                </a>
+                <!-- <div class="social-links">
+        <a rel="noreferrer" href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+        <a rel="noreferrer" href="#!" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://github.com/gentle-smile918" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div> -->
+
+                <hr />
+
+                <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+                <p class="footer__text">
+                    © 2022 - Designed by
+                    <a
+                        rel="noreferrer"
+                        href="mailto:jasonli890218@gmail.com"
+                        target="_blank"
+                        >Phillip Grandinetti</a
+                    >
+                </p>
+            </div>
+        </footer>
+        <!-- /END Footer Section -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script defer type="module" src="index.js"></script>
+        <script src="/src/scripts/skillbarScript.js"></script>
+        <script src="/src/scripts/scripts.js"></script>
+    </body>
+</html>

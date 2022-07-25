@@ -1,0 +1,104 @@
+/* SKILLS */
+
+#skills {
+    background: #1C3553;
+    padding: 20px 15px 75px 15px;
+    color: #fff;
+  }
+  
+  .skills-text {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1c3553;
+    font-size: 20px;
+  }
+  
+  .skills-title {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-title.underline:before {
+    width: 40px;
+  }
+  
+  .skills-list {
+    overflow: hidden;
+    position: relative;
+    z-index: 10
+  }
+  
+  .skill-name:after {
+    background-color: #999797;
+    content: '';
+    display: block;
+    height:1rem;
+    position: relative;
+    top: 3px;
+    /*top: 1rem;*/
+    width: 100%;
+  }
+  
+  .skill-percent {
+    font-size: 0;
+    height: 1rem;
+    position: relative;
+    top: -.8rem;
+    transition: 3s linear;
+    width: 0;
+    margin-left: 0;
+  }
+  
+  /* SKILL BAR COLORS */
+  
+  .skill-percent-solidity {
+    background-color: #00B1DB;
+  }
+  .skill-percent-ccplus {
+    background-color: #00B1DB;
+  }
+  .skill-percent-python {
+    background-color: #00B1DB;
+  }
+  .skill-percent-javascript {
+    background-color: #00B1DB;
+  }
+  .skill-percent-htmlcss {
+    background-color: #00B1DB;
+  }
+  .skill-percent-php {
+    background-color: #00B1DB;
+  }
+  .skill-percent-csharp {
+    background-color: #00B1DB;
+  }
+  .skill-percent-github {
+    background-color: #00B1DB;
+  }
+  .skill-percent-reactjs {
+    background-color: #00B1DB;
+  }
+  .skill-percent-vuejs {
+    background-color: #00B1DB;
+  }
+  .skill-percent-nodejs {
+    background-color: #00B1DB;
+  }
+  
+  /* Heading Underline */
+  
+  .underline {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .underline:before {
+    background-color: #fff;
+    bottom: -15px;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 110%;
+  }
