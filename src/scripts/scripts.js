@@ -77,7 +77,7 @@
         // Add icons to each block
         $this.find(".vtimeline-point").each(function () {
             $(this).prepend(
-                '<div class="vtimeline-icon"><i class="fas fa-level-down-alt"></i></div>'
+                '<div class="vtimeline-icon"><i class="	fa fa-angle-double-up"></i></div>'
             );
         });
 
